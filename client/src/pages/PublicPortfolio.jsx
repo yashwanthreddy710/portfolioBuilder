@@ -102,7 +102,7 @@ export default function PublicPortfolio() {
           {portfolio.profileImage && (
             <>
               <img
-                src={`http://localhost:5000/uploads/${portfolio.profileImage}`}
+                src={`https://portfoliobuilder-nz9o.onrender.com/uploads/${portfolio.profileImage}`}
                 alt="Profile"
                 className="w-48 h-48 object-cover rounded-full border-8 border-purple-400 shadow-xl md:w-64 md:h-64"
               />
@@ -117,7 +117,7 @@ export default function PublicPortfolio() {
   <div className="hidden md:flex md:w-1/2 justify-center">
     {portfolio.profileImage && (
       <img
-        src={`http://localhost:5000/uploads/${portfolio.profileImage}`}
+        src={`https://portfoliobuilder-nz9o.onrender.com/uploads/${portfolio.profileImage}`}
         alt="Profile"
         className="w-64 h-64 object-cover rounded-full border-8 border-purple-500 shadow-xl"
       />
@@ -193,7 +193,7 @@ export default function PublicPortfolio() {
             )}
             {sec.image && (
               <img
-                src={`http://localhost:5000/uploads/${sec.image}`}
+                src={`https://portfoliobuilder-nz9o.onrender.com/uploads/${sec.image}`}
                 alt="custom"
                 className="mt-4 w-32 h-auto rounded"
               />
